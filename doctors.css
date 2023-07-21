@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: crimson;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+  
+  .actions {
+    
+    margin-top: 20px;
+  }
+  
+  h3 {
+    color: #333333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: blueviolet;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: green;
+
+  }
+
+  
