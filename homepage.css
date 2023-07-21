@@ -1,0 +1,180 @@
+body{
+  background-color: #ffffff;
+  margin: 0;
+}
+
+h1{
+  color: blueviolet;
+  text-align: center;
+  font-size: 400%;
+
+}
+p{
+  text-align: center;
+  font-size: larger;
+}
+a{
+  font-size: 35px;
+  color: blueviolet;
+  text-align: left;
+
+}
+a:hover{
+  background-color: #ddd;
+  color: gray;
+}
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color:blueviolet ;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav b{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.background{
+  width: 100%;
+  min-height: 100vh;
+  background: url("http://localhost/PILL%20PAL/pillpal_images/dr.webp");
+  background-position: center;
+  
+  background-size: cover;
+  position: relative;
+
+
+  background-size: contain;
+
+}
+
+.company-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.company-element{
+  display:flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 10px;
+  align-items: center;
+  /* padding-left: 100px; */
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.company-element h2{
+  width: 400px;
+  text-align: center;
+}
+
+
+.company-element > img {
+  float: right;
+  border: 3px solid #f2f2f2;
+  border-radius: 10px;
+ 
+  width: 50%;
+  /* height: 80%; */
+  object-fit: contain;
+
+}
+.ratings{
+  color: black;
+  text-align: left;
+
+}
+.ratings p{
+  text-align: left;
+  text-decoration: underline;
+  color: black;
+  font-size: 200%;
+
+}
+.highlight-section {
+  background-color: #f2f2f2; /* Grey background color */
+  padding: 20px;
+}
+.highlight-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* CSS for the card elements */
+.highlight-card {
+  background-color: #ffffff; /* White background color for the cards */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each card */
+}
+
+.highlight-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.highlight-card h3 {
+  text-decoration: underline;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.highlight-card p {
+  font-size: 30px;
+  color: rgb(103, 62, 142);
+}
+
+/* CSS for the flex container */
+.highlight-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.info {
+  width: 50px;
+  height: 30px;
+float: left;
+margin-left: 30px;
+}
+.contact-info p{
+  text-align: left;
+  color: blueviolet;
+}
